@@ -64,7 +64,7 @@ array+=("helloworld/go-server")
 array+=("metric/go-server")
 
 # multi-registry
-#array+=("multi-registry/go-server")
+array+=("multi-registry/go-server")
 
 # registry
 #array+=("registry/etcd/go-server")
