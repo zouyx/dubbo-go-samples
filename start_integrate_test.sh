@@ -50,12 +50,12 @@
 ##array+=("general/jsonrpc/go-server")
 ##array+=("general/rest/go-server")
 
-# generic
-array+=("generic/go-server")
-
-# group
-array+=("group/go-server-group-a")
-array+=("group/go-server-group-b")
+## generic
+#array+=("generic/go-server")
+#
+## group
+#array+=("group/go-server-group-a")
+#array+=("group/go-server-group-b")
 
 # hello world
 array+=("helloworld/go-server")
