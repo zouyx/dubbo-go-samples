@@ -49,19 +49,19 @@
 #array+=("general/grpc/go-server")
 ##array+=("general/jsonrpc/go-server")
 ##array+=("general/rest/go-server")
-#
-## generic
-#array+=("generic/go-server")
-#
-## group
-#array+=("group/go-server-group-a")
-#array+=("group/go-server-group-b")
+
+# generic
+array+=("generic/go-server")
+
+# group
+array+=("group/go-server-group-a")
+array+=("group/go-server-group-b")
 
 # hello world
-#array+=("helloworld/go-server")
-#
-## metric
-#array+=("metric/go-server")
+array+=("helloworld/go-server")
+
+# metric
+array+=("metric/go-server")
 
 # multi-registry
 array+=("multi-registry/go-server")
