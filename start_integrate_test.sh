@@ -18,52 +18,52 @@
 array+=("multi-registry/go-server")
 
 # async
-#array=("async/go-server")
+array=("async/go-server")
 
 # attachment
-#array+=("attachment/go-server")
-#
-## config-api
-#array+=("config-api/go-server")
-#
-## config center
-#array+=("configcenter/apollo/go-server")
-#array+=("configcenter/nacos/go-server")
-#array+=("configcenter/zookeeper/go-server")
-#
-## context
-#array+=("context/go-server")
-#
-## direct
-#array+=("direct/go-server")
-#
-## filter
-#array+=("filter/custom/go-server")
-#array+=("filter/tpslimit/go-server")
-#array+=("filter/sentinel/go-server")
-#
-## game
-##array+=("game/go-server-game")
-##array+=("game/go-server-gate")
-#
-## general
-#array+=("general/dubbo/go-server")
-#array+=("general/grpc/go-server")
-##array+=("general/jsonrpc/go-server")
-##array+=("general/rest/go-server")
+array+=("attachment/go-server")
 
-## generic
-#array+=("generic/go-server")
-#
-## group
-#array+=("group/go-server-group-a")
-#array+=("group/go-server-group-b")
+# config-api
+array+=("config-api/go-server")
 
- hello world
+# config center
+array+=("configcenter/apollo/go-server")
+array+=("configcenter/nacos/go-server")
+array+=("configcenter/zookeeper/go-server")
+
+# context
+array+=("context/go-server")
+
+# direct
+array+=("direct/go-server")
+
+# filter
+array+=("filter/custom/go-server")
+array+=("filter/tpslimit/go-server")
+array+=("filter/sentinel/go-server")
+
+# game
+#array+=("game/go-server-game")
+#array+=("game/go-server-gate")
+
+# general
+array+=("general/dubbo/go-server")
+array+=("general/grpc/go-server")
+#array+=("general/jsonrpc/go-server")
+#array+=("general/rest/go-server")
+
+# generic
+array+=("generic/go-server")
+
+# group
+array+=("group/go-server-group-a")
+array+=("group/go-server-group-b")
+
+#hello world
 array+=("helloworld/go-server")
 
 # metric
-#array+=("metric/go-server")
+array+=("metric/go-server")
 
 # registry
 #array+=("registry/etcd/go-server")
