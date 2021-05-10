@@ -58,10 +58,10 @@
 #array+=("group/go-server-group-b")
 
 # hello world
-#array+=("helloworld/go-server")
+array+=("helloworld/go-server")
 
 # metric
-array+=("metric/go-server")
+#array+=("metric/go-server")
 
 # multi-registry
 array+=("multi-registry/go-server")
