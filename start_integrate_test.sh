@@ -14,6 +14,8 @@
 #  See the License for the specific language governing permissions and
 #  limitations under the License.
 
+# multi-registry
+array+=("multi-registry/go-server")
 
 # async
 #array=("async/go-server")
@@ -57,14 +59,11 @@
 #array+=("group/go-server-group-a")
 #array+=("group/go-server-group-b")
 
-# hello world
-#array+=("helloworld/go-server")
+ hello world
+array+=("helloworld/go-server")
 
 # metric
 #array+=("metric/go-server")
-
-# multi-registry
-array+=("multi-registry/go-server")
 
 # registry
 #array+=("registry/etcd/go-server")
