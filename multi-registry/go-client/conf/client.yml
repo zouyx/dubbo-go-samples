@@ -16,10 +16,10 @@ application:
 
 # registry config
 registries:
-  "zk":
-    protocol: "zookeeper"
-    timeout: "3s"
-    address: "127.0.0.1:2181"
+#  "zk":
+#    protocol: "zookeeper"
+#    timeout: "3s"
+#    address: "127.0.0.1:2181"
   "nacos":
     protocol: "nacos"
     timeout	: "3s"

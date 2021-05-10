@@ -54,11 +54,11 @@
 #array+=("generic/go-server")
 #
 ## group
-array+=("group/go-server-group-a")
-array+=("group/go-server-group-b")
+#array+=("group/go-server-group-a")
+#array+=("group/go-server-group-b")
 
 # hello world
-#array+=("helloworld/go-server")
+array+=("helloworld/go-server")
 
 # metric
 #array+=("metric/go-server")
