@@ -59,7 +59,7 @@ array+=("generic/go-server")
 array+=("group/go-server-group-a")
 array+=("group/go-server-group-b")
 
-#hello world
+# hello world
 array+=("helloworld/go-server")
 
 # metric
